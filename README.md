@@ -2,7 +2,7 @@
 
 ## Description
 
-This Jupyter notebook (`Autoencoder - Hyperparameter.ipynb`) provides a framework for hyperparameter testing in a PointNet-based autoencoder network. It replaces the classifier in vanilla PointNet with a decoder for unsupervised reconstruction of point clouds from the ShapeNet dataset in .txt format (each file: Nx4 with x, y, z coordinates + part labels; only coordinates used for autoencoding). The notebook includes environment setup, data loading/preprocessing, dataset statistics gathering and plotting, class imbalance handling (implied via stats), hyperparameter tuning with manual configurations, training/evaluation using Chamfer loss, and saving of models/metrics.
+This Jupyter notebook (`Autoencoder - Hyperparameter.ipynb`) provides a framework for hyperparameter testing in a PointNet-based autoencoder network. It replaces the classifier in vanilla PointNet with a decoder for unsupervised reconstruction of point clouds from the ShapeNet dataset in .txt format (each file: Nx4 with x, y, z coordinates + part labels; only coordinates used for autoencoding). The notebook includes environment setup, data loading/preprocessing, dataset statistics gathering and plotting, class imbalance handling, hyperparameter tuning with manual configurations, training/evaluation using Chamfer loss, and saving of models/metrics.
 
 Key features:
 - **Reproducibility**: Seeds and deterministic settings for PyTorch/NumPy/random on CPU/GPU.
